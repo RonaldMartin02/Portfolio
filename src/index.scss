@@ -158,6 +158,7 @@ header{
   transition:  transform 200ms ease-in color;
   &_title {
     padding: 1rem;
+    text-align: center;
   }
   &_description {
     padding:0 1rem;
@@ -195,3 +196,85 @@ header{
   }
 }
 
+.About{
+  &_title{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+
+  }
+  &_description{
+    font-size: 1.5rem;
+  }
+  &_img{
+    width: 25%;
+    object-fit: cover;
+  }
+  &_div{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    // align-items: center;
+  }
+}
+
+.Resume{
+&_Work{
+  h2{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+  }
+  &_Title{
+    font-size: 1.5rem;
+  }
+  &_Info{
+    font-size: 1.5rem;
+  }
+}
+&_Education{
+  &_Title{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+  }
+  &_Info{
+    font-size: 1.5rem;
+  }
+}
+&_Skills{
+  &_Title{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+  }
+  &_Info{
+    font-size: 1.5rem;
+  }
+}
+
+}
+
+@media screen and (max-width:600px) {
+  .About{
+    &_img{
+      width: auto;
+    }
+    &_div{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+      // align-items: center;
+    }
+  }
+}
