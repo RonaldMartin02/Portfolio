@@ -7,7 +7,9 @@ export default function About() {
       <div className='About_div'>
       <img className='About_img' src={Portrait} alt="" />
       <p className='About_desctiption'>Hello! My name is Ronald Martin </p>
-      <p className='About_desctiption'>I want to become a game designer but wanted a backup plan before I go full steam ahead on game development. I am in college currently for Computer Science. Once I finish this degree I will be coming back to MCC for Computer Game Design. I already know how to code in Java 8. I plan on learing C++ and C# because those two languages are used the most in game development.  </p>
+      <p className='About_desctiption'>Aspiring Game Designer with a passion for crafting immersive digital experiences. Currently pursuing a Computer Science degree with a keen interest in leveraging programming skills to create captivating games. Proficient in Java 8 and eager to expand expertise to encompass C++ and C#, the cornerstone languages of game development. </p>
+      <p className='About_description'>While my journey is anchored in Computer Science education, I harbor a deep-seated ambition to venture into the realm of game design. Recognizing the dynamic nature of the industry, I am dedicated to honing my skills and knowledge through specialized education, including upcoming enrollment in a Computer Game Design program at MCC.</p>
+      <p className='About_description'>I am a dedicated and driven individual with a strong work ethic and a commitment to excellence. I am eager to contribute to the game design industry and am excited to see where my journey takes me. </p>
       </div>
     </div>
   );

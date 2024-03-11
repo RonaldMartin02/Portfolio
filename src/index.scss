@@ -219,7 +219,7 @@ footer{
     flex-direction: column;
   }
   &_img{
-    width: 25%;
+    width: 50%;
     object-fit: cover;
   }
   &_div{
@@ -227,7 +227,7 @@ footer{
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
-    // align-items: center;
+    align-items: center;
   }
 }
 
@@ -323,7 +323,11 @@ footer{
 
  
 }
-@media screen and (max-width:400px){
+@media screen and (min-width:700px){
+.About_img{
+  width: 40%;
+  object-fit: cover;
+}
 }
 @media screen and (max-width:600px) {
   .Homepage{
@@ -347,7 +351,7 @@ footer{
   }
   .About{
     &_img{
-      width: auto;
+      width: 100%;
     }
     &_div{
       display: flex;
