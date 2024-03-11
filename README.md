@@ -20,5 +20,5 @@ Technologies Used
 
 ## Deployment
 
-[Link to ](https://remarkable-kheer-2e0781.netlify.app/)
-
+[Link to Live App](https://remarkable-kheer-2e0781.netlify.app/)
+ ![Image of my Website Deployed](./src/assets/img/Deployment.PNG)
