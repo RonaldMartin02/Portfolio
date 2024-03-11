@@ -5,7 +5,6 @@ import social from '../assets/img/Ttgs.jpg';
 import finance from '../assets/img/Wisdom_Warriors_Financial.jpg';
 
 export default function Portfolio() {
-    const currentPage = useLocation().pathname;
     const projects = [
         {
             title: "Gizmo Gaming",
@@ -31,14 +30,6 @@ export default function Portfolio() {
             repo: "https://github.com/RonaldMartin02/time_to_get_social",
             status: "Finished",
         },
-        {
-            title: "",
-            description: "",
-            img: social,
-            link: "",
-            repo: "",
-            status: "Under Construction",
-        },
     ];
     const renderImg = (project) => {
         if (project.status === "Under Construction") {
@@ -47,21 +38,6 @@ export default function Portfolio() {
             return project.img;
         }
     }
-    // if (projects[i].status === null) {
-    //     projects[i].status = "Under Construction";
-    //     projects[i].img = stockImg;
-    //     return (
-    //         <div>
-    //         <h1>Portfolio</h1>
-    //         <div className='single-project'>
-    //             {projects.map((project, index) => (
-    //                 <Project title={project.title} description={project.description} key={index} img={project.img} link={project.link} repo={project.repo}/>
-    //                 ))}   
-    //         </div>
-    //             {/* <Link to="/">Go to Home</Link> */}
-    //                 </div>
-    //     );
-    // }
     return (
         <div>
         <h1>Portfolio</h1>

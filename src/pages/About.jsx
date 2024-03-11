@@ -1,8 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import Portrait from '../assets/img/Portrait.jpg';
 export default function About() {
-  const currentPage = useLocation().pathname;
-
   return (
     <div className='About'>
       <h1 className='About_title'>Who is Ronald Martin?</h1>

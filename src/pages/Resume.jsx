@@ -15,9 +15,8 @@ const jobs = [
     company: 'MarketSource/Target Mobile',
     location: 'Manchester, CT',
     date: 'February 2023 to July 2023',
-    description: `• Sold Phones and Accessories
-                    • Provided outstanding customer service
-                    • Provided in store support for Consumer Cellular.`,
+    description: `Sold Phones and Accessories, Provided outstanding customer service
+and Provided in store support for Consumer Cellular.`,
 },
 {
     title: 'Tech Consultant',
@@ -40,14 +39,6 @@ const jobs = [
     location: 'Berlin, CT',
     date: 'June 2021 to August 2021',
     description: `I had to complete a customers order within a given time.`,
-},
-{
-    title: 'Volunteer Work',
-    company: 'Candy\'s Chimney Service',
-    location: 'Manchester, CT',
-    date: 'August 2016 to June 2018',
-    description: `I was tasked with maintaining the tech section of Target clean, stocking the shelves and assist Guests
-    with purchases of all things Tech. I was trained how to check out items.`,
 },
 ];
 const Education = [
@@ -157,7 +148,7 @@ export default function Resume() {
         <div className='Resume_Work'>
             <h2>Work Experience</h2>
             {jobs.map((job, index) => (
-                <div key={index}>
+                <div className='Resume_Work_Div' key={index}>
                     <h3 className='Resume_Work_Title'>{job.title}</h3>
                     <p className='Resume_Work_Company'>{job.company}</p>
                     <p className='Resume_Work_Location'>{job.location}</p>
@@ -169,7 +160,7 @@ export default function Resume() {
         <div className='Resume_Education'>
             <h2>Education</h2>
             {Education.map((school, index) => (
-                <div key={index}>
+                <div className='Resume_Education_Div' key={index}>
                     <h3 className='Resume_Education_Title'>{school.title}</h3>
                     <p className='Resume_Education_School'>{school.school}</p>
                     <p className='Resume_Education_Location'>{school.location}</p>
@@ -180,7 +171,7 @@ export default function Resume() {
             <div className='Resume_Skills'>
                 <h2>Skills</h2>
                 {skills.map((skill, index) => (
-                    <div key={index}>
+                    <div className='Resume_Skill_Div' key={index}>
                         <h3 className='Resume_Skill_Title'>{skill.title}</h3>
                         <p className='Resume_Skill_Info'>{skill.time}</p>
                     </div>

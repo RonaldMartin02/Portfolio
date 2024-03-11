@@ -78,6 +78,13 @@ header{
     flex-direction: row;
   }
 }
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
 //for Nav.jsx
 .nav{
   display: flex;
@@ -139,6 +146,7 @@ header{
 
 
 .single-project{
+  font-family: 'Courier New', Courier, monospace;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 16em));
   gap: 1rem;
@@ -197,13 +205,13 @@ header{
 }
 
 .About{
+  font-family: 'Courier New', Courier, monospace;
   &_title{
     width: 100%;
     font-size: 3rem;
     font-weight: bold;
     justify-content: center;
     text-align: center;
-
   }
   &_description{
     font-size: 1.5rem;
@@ -216,7 +224,7 @@ header{
   }
   &_div{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2rem;
     justify-content: center;
     // align-items: center;
@@ -224,48 +232,58 @@ header{
 }
 
 .Resume{
-&_Work{
-  h2{
-    width: 100%;
-    font-size: 3rem;
-    font-weight: bold;
-    justify-content: center;
-    text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  &_Work{
+  &_Div{
+   padding-left: 25px;
+   border-bottom: #1a1a1a 1px solid;
   }
   &_Title{
-    font-size: 1rem;
+    font-size: 2rem;
+
+  }
+  &_Company, &_Location, &_Date{
+    padding-left: 10px;
+    font-size: 1.25rem;
   }
   &_Info{
-    font-size: .8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
   }
 }
 &_Education{
+
+  &_Div{
+    padding-left: 25px;
+    border-bottom: #1a1a1a 1px solid;
+   }
   &_Title{
     width: 100%;
-    font-size: 3rem;
-    font-weight: bold;
-    justify-content: center;
-    text-align: center;
+    font-size: 2rem;
   }
   &_Info{
     font-size: 1.5rem;
   }
 }
-&_Skills{
+&_Skill{
+  &_Div{
+    padding-left: 25px;
+    border-bottom: #1a1a1a 1px solid;
+   }
   &_Title{
     width: 100%;
-    font-size: 3rem;
-    font-weight: bold;
-    justify-content: center;
-    text-align: center;
+    font-size: 1.5rem;
   }
   &_Info{
+    padding-left: 10px;
     font-size: 1.5rem;
   }
 }
 
 }
 .Contact{
+  font-family: 'Courier New', Courier, monospace;
   &_Title{
     width: 100%;
     font-size: 3rem;
