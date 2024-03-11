@@ -1,15 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
-
-
-
 export default function Nav() {
     return (
       <nav className='nav'>
        <div className='nav_Link'>
-            <Link to="/">Home</Link>
-       </div>
-       <div className='nav_Link'>
-            <Link to="/About">About</Link>
+            <Link to="/">About</Link>
        </div>
        <div className='nav_Link'>
             <Link to="/Resume">Resume</Link>
@@ -20,9 +14,7 @@ export default function Nav() {
        <div className='nav_Link'>
         <Link to="/Contact">Contact</Link>
        </div>
-            
-        
-      </nav>
+     </nav>
     );
   }
   

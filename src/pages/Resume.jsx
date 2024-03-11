@@ -7,14 +7,7 @@ const jobs = [
     company: 'P.C. Richard & Son',
     location: 'Manchester, CT',
     date: 'July 2023 to Present',
-    description: `• Providing excellent customer service before, during and after the sale in person and over the telephone. 
-                  • Helping customers select merchandise by explaining the features and benefits of each product.
-                  • Gaining product and sales knowledge through various manufacturer and in-house training programs.
-                  • Selling extended service protection and installations on selected merchandise.
-                  • Entering the sale in our computerized Point of Sale system, including customer, product, pricing,
-                  delivery, order status and payment information. Follow up on open orders through completion.
-                  • Promoting our P.C. Richard and Son credit card and processing the applications through a computerized
-program`,
+    description: `Providing excellent customer service before, during and after the sale in person and over the telephone. Helping customers select merchandise by explaining the features and benefits of each product. Selling extended service protection and installations on selected merchandise. Entering the sale in our computerized Point of Sale system, including customer, product, pricing, delivery,  order status and payment information. Follow up on open orders through completion.`,
 
 },
 {
@@ -166,9 +159,9 @@ export default function Resume() {
             {jobs.map((job, index) => (
                 <div key={index}>
                     <h3 className='Resume_Work_Title'>{job.title}</h3>
-                    <p className='Resume_Work_Info'>{job.company}</p>
-                    <p className='Resume_Work_Info'>{job.location}</p>
-                    <p className='Resume_Work_Info'>{job.date}</p>
+                    <p className='Resume_Work_Company'>{job.company}</p>
+                    <p className='Resume_Work_Location'>{job.location}</p>
+                    <p className='Resume_Work_Date'>{job.date}</p>
                     <p className='Resume_Work_Info'>{job.description}</p>
                 </div>
             ))}
@@ -178,9 +171,9 @@ export default function Resume() {
             {Education.map((school, index) => (
                 <div key={index}>
                     <h3 className='Resume_Education_Title'>{school.title}</h3>
-                    <p className='Resume_Education_Info'>{school.school}</p>
-                    <p className='Resume_Education_Info'>{school.location}</p>
-                    <p className='Resume_Education_Info'>{school.date}</p>
+                    <p className='Resume_Education_School'>{school.school}</p>
+                    <p className='Resume_Education_Location'>{school.location}</p>
+                    <p className='Resume_Education_Date'>{school.date}</p>
                 </div>
             ))}
             </div>

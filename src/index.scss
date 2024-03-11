@@ -34,7 +34,7 @@ a:hover {
 }
 
 body {
-  margin: 2rem;
+  // margin: 2rem;
   display: flex;
   place-items: center;
   min-width: 320px;
@@ -88,7 +88,7 @@ header{
   background-color: var(--color-tertiary);
   box-shadow: 0 2px 20px var(--color-secondary);
   &_Link {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     justify-content: space-evenly;
   }
@@ -100,8 +100,8 @@ header{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  padding: 2rem;
+  // gap: 2rem;
+  // padding: 2rem;
   background-color: var(--color-primary);
   box-shadow: 0 2px 20px var(--color-secondary);
   &_Row{
@@ -207,6 +207,8 @@ header{
   }
   &_description{
     font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
   }
   &_img{
     width: 25%;
@@ -231,10 +233,10 @@ header{
     text-align: center;
   }
   &_Title{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   &_Info{
-    font-size: 1.5rem;
+    font-size: .8rem;
   }
 }
 &_Education{
@@ -263,8 +265,68 @@ header{
 }
 
 }
+.Contact{
+  &_Title{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+  }
+  &_Form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  &_FullName, &_Info{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  &_First, &_Last, &_Email, &_Number, &_Message{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    &_Input{
+      width: 100%;
+    }
+  }
+  &_Email, &_Number{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
 
+ 
+}
+@media screen and (max-width:400px){
+}
 @media screen and (max-width:600px) {
+  .Homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: var(--color-primary);
+    box-shadow: 0 2px 20px var(--color-secondary);
+    &_Row{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem;
+      background-color: var(--color-tertiary);
+      box-shadow: 0 2px 20px var(--color-secondary);
+      width: 100%;
+    }
+  }
   .About{
     &_img{
       width: auto;
@@ -277,4 +339,38 @@ header{
       // align-items: center;
     }
   }
+  .Contact{
+    &_FullName, &_Info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    &_First, &_Last{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      &_Input{
+        width: 100%;
+      }
+    }
+    &_Email, &_Number{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    &_Message{
+      width: 100%;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      &_Input{
+        width: 100%;
+        max-width:500px;
+        height: 100%;     
+      }
+    }
+  }
+  
 }

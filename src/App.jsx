@@ -49,7 +49,7 @@ function App() {
       <Header />
       <Nav />
       <main>
-        {renderContent()}
+        {/* {renderContent()} */}
         <Outlet />
       </main>
       <Footer />
