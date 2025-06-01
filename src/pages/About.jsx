@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import Portrait from '../assets/img/Portrait.jpg';
+import './scss/About.scss';
 export default function About() {
   return (
     <div className='About'>

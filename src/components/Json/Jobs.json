@@ -1,0 +1,47 @@
+{
+    "jobs": [
+        {
+            "title": "Freelance Web Developer",
+            "company": "Self Employed",
+            "location": "Remote",
+            "date": "2023 to Present",
+            "description": "Designed and deployed responsive web applications for clients. Built and maintained full-stack applications using MERN stack. Provided troubleshooting and performance optimization solutions."
+            },
+        {
+            "title": "ACE Sales",
+            "company": "P.C. Richard & Son",
+            "location": "Manchester, CT",
+            "date": "July 2023 to Present",
+            "description": "Providing excellent customer service before, during and after the sale in person and over the telephone. Helping customers select merchandise by explaining the features and benefits of each product. Selling extended service protection and installations on selected merchandise. Entering the sale in our computerized Point of Sale system, including customer, product, pricing, delivery,  order status and payment information. Follow up on open orders through completion."
+        
+        },
+        {
+            "title": "Sales Representative",
+            "company": "MarketSource/Target Mobile",
+            "location": "Manchester, CT",
+            "date": "February 2023 to July 2023",
+            "description": "Sold Phones and Accessories, Provided outstanding customer service and Provided in store support for Consumer Cellular."
+        },
+        {
+            "title": "Tech Consultant",
+            "company": "Target",
+            "location": "Manchester, CT",
+            "date": "November 2022 to January 2023",
+            "description": "I was tasked with maintaining the tech section of Target clean, stocking the shelves and assist Guests with purchases of all things Tech. I was trained how to check out items."
+        },
+        {
+            "title": "Food and Consumables Associate",
+            "company": "Walmart",
+            "location": "Manchester, CT",
+            "date": "June 2022 to November 2022",
+            "description": "I was tasked with keeping the Frozen and Dairy sections of Walmart stocked."
+        },
+        {
+            "title": "Line Cook",
+            "company": "Sliders Bar and Grill",
+            "location": "Berlin, CT",
+            "date": "June 2021 to August 2021",
+            "description": "I had to complete a customers order within a given time."
+        }
+    ]
+}

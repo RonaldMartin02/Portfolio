@@ -1,0 +1,65 @@
+{
+    "skills": {
+        "generalSkills": [
+            "Communication",
+            "Teamwork",
+            "Problem Solving",
+            "Time Management",
+            "Adaptability",
+            "Critical Thinking"
+        ],
+        "WebDevelopmentSkills": [
+            {
+            "name": "HTML",
+            "description": "Markup language for creating web pages.",
+            "proficiency": "Advanced",
+            "Time": "2023 to Present"
+            },
+            {
+            "name": "CSS",
+            "description": "Style sheet language for describing the presentation of a document written in HTML.",
+            "proficiency": "Advanced"
+            },
+            {
+            "name": "JavaScript",
+            "description": "Programming language for creating dynamic web content.",
+            "proficiency": "Advanced"
+            },
+            {
+            "name": "React",
+            "description": "JavaScript library for building user interfaces.",
+            "proficiency": "Advanced"
+            },
+            {
+            "name": "Node.js",
+            "description": "JavaScript runtime for building server-side applications.",
+            "proficiency": "Intermediate"
+            },
+            {
+            "name": "Python",
+            "description": "High-level programming language for general-purpose programming.",
+            "proficiency": "Basic"
+            },
+            {
+            "name": "SQL",
+            "description": "Language for managing and querying relational databases.",
+            "proficiency": "Advanced"
+            },
+            {
+            "name": "Git",
+            "description": "Version control system for tracking changes in source code during software development.",
+            "proficiency": "Advanced"
+            },
+            {
+            "name": "REST APIs",
+            "description": "Architectural style for designing networked applications using HTTP requests to access and use data.",
+            "proficiency": "Intermediate"
+            },
+            {
+            "name": "Responsive Design",
+            "description": "Approach to web design that makes web pages render well on a variety of devices and window or screen sizes.",
+            "proficiency": "Advanced"
+            }
+        ]
+    }
+}

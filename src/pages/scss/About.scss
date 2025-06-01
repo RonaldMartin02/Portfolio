@@ -1,0 +1,26 @@
+.About{
+    font-family: 'Courier New', Courier, monospace;
+    &_title{
+        width: 100%;
+        font-size: 3rem;
+        font-weight: bold;
+        justify-content: center;
+        text-align: center;
+    }
+    &_description{
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    &_img{
+        width: 50%;
+        object-fit: cover;
+    }
+    &_div{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+}

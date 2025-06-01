@@ -1,0 +1,25 @@
+{
+    "Education" : [
+    {
+        "title": " Full Stack Web Development Bootcamp",
+        "school": "University of Connecticut (UConn)",
+        "location": "Online - Remote",
+        "date": "September 2023 to March 2024",
+        "description": "Full Stack Web Development Bootcamp at Uconn. This bootcamp covers HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, and more. It includes hands-on projects and real-world applications to build a portfolio."
+    },
+    {
+        "title": "Some college in Computer Science",
+        "school": "CT State Community College",
+        "location": "Manchester, CT",
+        "date": "January 2019 to Present",
+        "description" : "Pursuing a degree in Computer Science with a focus on software development and programming languages. Courses include data structures, algorithms, and web development."
+    },
+    {
+        "title": "High school diploma",
+        "school": "Great Path Academy At Mcc",
+        "location": "Manchester, CT",
+        "date": "August 2014 to June 2018",
+        "description": ""
+    }
+]
+}

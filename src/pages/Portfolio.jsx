@@ -3,16 +3,18 @@ import { Link, useLocation } from 'react-router-dom';
 import stockImg from '../assets/img/UnderConstruction.jpg';
 import social from '../assets/img/Ttgs.jpg';
 import finance from '../assets/img/Wisdom_Warriors_Financial.jpg';
+import Tetsu from '../assets/img/TetsuPro.jpg';
+// import './scss/Portfolio.scss';
 
 export default function Portfolio() {
     const projects = [
         {
-            title: "Gizmo Gaming",
-            description: "A Blog to show off builds and add comments .",
-            img: social,
-            link: "",
-            repo: "",
-            status: "Under Construction",
+            title: "Tetsu Pro",
+            description: "My first Freelance project, a website for a local wrestling promotion based out of Bristol, CT.",
+            img: Tetsu,
+            link: "www.tetsupro.net",
+            repo: "https://github.com/RonaldMartin02/Tetsu",
+            status: "",
         },
         {
             title: "Wisdom Warriors Financial",
@@ -24,7 +26,7 @@ export default function Portfolio() {
         },
         {
             title: "Time to get Social",
-            description: "A website allows users to find Breweries and to get Ice Breakers to try to help them start converstions.",
+            description: "A website allows users to find Breweries and to get Ice Breakers to try to help them start conversations.",
             img: social,
             link: "https://ronaldmartin02.github.io/time_to_get_social/",
             repo: "https://github.com/RonaldMartin02/time_to_get_social",
@@ -40,14 +42,13 @@ export default function Portfolio() {
     }
     return (
         <div>
-        <h1>Portfolio</h1>
-        <div className='single-project'>
-            {projects.map((project, index) => (
-                <Project title={project.title} description={project.description} key={index} img={renderImg(project)} link={project.link} repo={project.repo}/>
-                ))}   
-        </div>
+            <h1>Portfolio</h1>
+            <div className='single-project'>
+                {projects.map((project, index) => (
+                    <Project title={project.title} description={project.description} key={index} img={renderImg(project)} link={project.link} repo={project.repo} />
+                ))}
+            </div>
             {/* <Link to="/">Go to Home</Link> */}
-                </div>
+        </div>
     );
-  }
-  
+}

@@ -1,0 +1,61 @@
+.Resume {
+  font-family: 'Times New Roman', Times, serif;
+
+  &_Work {
+    &_Div {
+      padding-left: 25px;
+      border-bottom: #1a1a1a 1px solid;
+    }
+
+    &_Title {
+      font-size: 2rem;
+    }
+
+    &_Company,
+    &_Location,
+    &_Date {
+      padding-left: 10px;
+      font-size: 1.25rem;
+    }
+
+    &_Info {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 1rem;
+    }
+  }
+
+  &_Education {
+
+    &_Div {
+      padding-left: 25px;
+      border-bottom: #1a1a1a 1px solid;
+    }
+
+    &_Title {
+      width: 100%;
+      font-size: 2rem;
+    }
+
+    &_Info {
+      font-size: 1.5rem;
+    }
+  }
+
+  &_Skill {
+    &_Div {
+      padding-left: 25px;
+      border-bottom: #1a1a1a 1px solid;
+    }
+
+    &_Title {
+      width: 100%;
+      font-size: 1.5rem;
+    }
+
+    &_Info {
+      padding-left: 10px;
+      font-size: 1.5rem;
+    }
+  }
+}
