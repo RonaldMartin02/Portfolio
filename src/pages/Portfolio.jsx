@@ -14,7 +14,7 @@ export default function Portfolio() {
             img: Tetsu,
             link: "www.tetsupro.net",
             repo: "https://github.com/RonaldMartin02/Tetsu",
-            status: "",
+            status: "Finished",
         },
         {
             title: "Wisdom Warriors Financial",
