@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import Job from '../components/job';
+import Job from '../components/Job';
 // import ResumePDF from '../assets/Resume.pdf';
 import Education from '../components/Json/Education.json';
 import Jobs from '../components/Json/Jobs.json';
